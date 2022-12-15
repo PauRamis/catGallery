@@ -7,10 +7,22 @@
     margin-right: auto;
     text-align: center;
 }
+div{
+    max-width: 83.333333%;
+}
 
 .imgc{
     object-fit: cover;
     width: 400px;
     height: 400px;
     margin: 25px;
+}
+
+@media screen and (max-width: 950px) {
+    .imgc {
+        aspect-ratio: 1 / 1;
+        width: 50%;
+        height: 50%;
+        object-fit: cover;
+    }
 }
