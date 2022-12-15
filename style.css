@@ -1,0 +1,16 @@
+.cont{
+    margin-top: 25px;
+    margin-right: 25px;
+    margin-left: 25px;
+    max-width: 1900px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.imgc{
+    object-fit: cover;
+    width: 400px;
+    height: 400px;
+    margin: 25px;
+}
